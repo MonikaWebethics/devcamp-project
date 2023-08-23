@@ -98,7 +98,7 @@ export function Signup() {
                         </p>
                       ) : null}
                     </div>
-                    <div className="form-outline mb-4">
+                    <div className="form-outline mb-4 pb-1">
                       <label className="form-label">Role</label>
                       <select
                         id="roleSelect"
@@ -122,19 +122,6 @@ export function Signup() {
                       ) : null}
                     </div>
 
-                    <div className="form-check d-flex justify-content-start mb-4">
-                      <input
-                        className="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="form1Example3"
-                      />
-                      <label className="form-check-label">
-                        {" "}
-                        Remember password{" "}
-                      </label>
-                    </div>
-
                     <button
                       className="btn btn-primary btn-lg btn-block"
                       type="submit"
@@ -147,7 +134,7 @@ export function Signup() {
                       </div>
                     )}
 
-                    <div className="d-flex align-items-center justify-content-center pb-4">
+                    <div className="d-flex align-items-center justify-content-center pb-4 pt-2">
                       <p className="mb-0 me-2">Already have an account?</p>
                       <Link to="/login" className="link-danger">
                         Login

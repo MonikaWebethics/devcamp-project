@@ -64,7 +64,7 @@ export function Login() {
                       ) : null}
                     </div>
 
-                    <div className="form-outline mb-4">
+                    <div className="form-outline mb-4 pb-3">
                       <label className="form-label">Password</label>
                       <input
                         type="password"
@@ -82,19 +82,6 @@ export function Login() {
                       ) : null}
                     </div>
 
-                    <div className="form-check d-flex justify-content-start mb-4">
-                      <input
-                        className="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="form1Example3"
-                      />
-                      <label className="form-check-label">
-                        {" "}
-                        Remember password{" "}
-                      </label>
-                    </div>
-
                     <button
                       className="btn btn-primary btn-lg btn-block"
                       type="submit"
@@ -107,7 +94,7 @@ export function Login() {
                       </div>
                     )}
 
-                    <div className="d-flex align-items-center justify-content-center pb-4">
+                    <div className="d-flex align-items-center justify-content-center pt-2 pb-4">
                       <p className="mb-0 me-2">Don't have an account?</p>
                       <Link to="/signup" className="link-danger">
                         Register
